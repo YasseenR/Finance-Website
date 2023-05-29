@@ -1,0 +1,199 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Jost', sans-serif;
+    background-color: white;
+    background-attachment: fixed;
+    background-size: cover;}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    
+}
+
+.navbar-inner {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: #ffbf80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-left-title span{
+    background-image:linear-gradient(90deg, rgba(128,0,255,1) 25%, rgba(105,52,157,1) 100%);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+
+}
+
+.navbar-menu {
+    cursor: pointer;
+    color: #ffbf80;
+    transition: color 0.2s;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.navbar-menu:hover {
+    transition: color 0.3s;
+    color: black;
+}
+
+.navbar-right {
+    margin-right: 100px;
+}
+
+
+
+.hero-markets {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    
+    width: 100%;
+    height: 250px;
+    
+
+}
+
+.markets-compare {
+    height: 50%;
+    width: 60%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    border: solid 2px #8c36e2;
+    align-items: baseline;
+    background-color: rgba(255,191,128,.7);
+    /*background:  linear-gradient(90deg, white 0%, rgba(255,191,128,1) 50%);
+*/}
+
+.compare-bar {
+    font-size: 12px;
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    color: #330066;
+    margin-top: 10px;
+    margin-left: 20px;
+
+
+}
+
+.bar-market {
+    margin-left: 10px;
+    margin-right: 8px;
+    border-radius: 12px;
+    padding: 2px 8px;
+    cursor: pointer;
+    width: min-content;
+    font-weight: 600;
+}
+
+.bar-market:hover {
+    background-color: rgb(128, 0, 255, .2);
+}
+
+
+.bar-button{
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 2px 8px;
+    border:solid 1px #8c36e2;
+
+}
+
+.compare-indexes {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.index-item {
+    display: flex;
+    width: 165px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    background: white;
+    border-radius: 12px;
+    border: solid 1px gray;
+    padding: 6px;
+    cursor: pointer;
+
+}
+
+.index-item:hover {
+    background: rgb(224, 224, 224);
+}
+
+.index-item-trend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(189, 29, 29);
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    background-color: pink;
+}
+
+.index-item-content {
+    display: flex;
+    flex-direction: column;
+    height: 32px;
+}
+
+.index-item-content-title {
+    font-weight: 600;
+}
+
+.index-item-content-price {
+    font-weight: 400;
+
+}
+
+.index-item-change {
+    font-weight: 600;
+    color: rgb(185, 31, 31);
+    display: flex;
+    flex-direction: column;
+    height: 32px;
+}
+
+.index-item-change-decimal {
+    font-weight: 500;
+}
+
+
+.hero-stocks {
+    width: 100%;
+    height: 600px;
+
+}
+
+.stocks-info {
+    width: 80%;
+    background-color: white;
+}
+/* API KEY 9ESCX5O82TV9RPOR
